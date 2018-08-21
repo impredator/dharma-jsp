@@ -5,7 +5,7 @@
   </head>
   <body>
     <h1>Java in Static Page Example</h1>
-	<% 	String[] arr = {"What's up?", "Hello", "It's a nice day today!"}; 
+	<% 	String[] arr = {"What's up?", "Hello", "It's a nice day today!"};
 		String greetings = arr[(int)(Math.random() * arr.length)];
 	%>
     <p><%= greetings %></p>
