@@ -17,6 +17,7 @@ public class BMIServlet extends HttpServlet {
         double bmi = calculateBMI(
                 Double.parseDouble(weight),
                 Double.parseDouble(height));
+
         String bmiResult = estimateRMI(bmi);
 
         request.setAttribute("bmiResult", bmiResult);
